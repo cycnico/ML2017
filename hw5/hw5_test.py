@@ -62,7 +62,7 @@ with open('word_index.json', 'r') as f:
     word_index = json.load(f)
 
 ### read tag_list
-with open('tag_list.json', 'r') as t:
+with open('label_mapping.json', 'r') as t:
     tag_list = json.load(t)
 
 ### tokenizer for all data
